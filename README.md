@@ -19,6 +19,7 @@ vue2 + vue-router + vuex + axios + ElementUi + webpack + express(node框架) + m
 项目运行（nodejs 6.0+）
 _____
 
+``` bash
 #克隆到本地<br>
 git clone <br>
 或者download文件
@@ -37,6 +38,7 @@ node server/bin/www
 
 #加载前端项目<br>
 npm run dev
+```
 <br>
 
 主要功能
