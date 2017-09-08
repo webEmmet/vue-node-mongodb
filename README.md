@@ -10,24 +10,25 @@ _____
 
 4、如果对您有所帮助，您可以点击右上角“Star”支持一下<br>
 
+
 项目运行（nodejs 6.0+）
 _____
 
-#克隆到本地
-git clone 
+#克隆到本地<br>
+git clone <br>
 或者download文件
 
-#进入文件夹
+#进入文件夹<br>
 cd vue-node-mongodb
 
-#安装依赖
+#安装依赖<br>
 npm install
 
-#开启mongodb
+#开启mongodb<br>
 这里需要您先将db文件夹里的数据文件导入到mongodb中，并开启mongodb
 
-#打开node服务器localhost:3000
+#打开node服务器localhost:3000<br>
 node server/bin/www
 
-#加载前端项目
+#加载前端项目<br>
 npm run dev
