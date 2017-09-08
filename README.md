@@ -1,4 +1,4 @@
-说明
+说明(首次写readme，不满意的还请海涵)
 ===
 这是一个vue+node+mongodb的全栈项目
 _____
@@ -15,6 +15,7 @@ _____
 ____
 
 vue2 + vue-router + vuex + axios + ElementUi + webpack + express(node框架) + mongodb + cookie<br>
+<br>
 项目运行（nodejs 6.0+）
 _____
 
@@ -36,3 +37,13 @@ node server/bin/www
 
 #加载前端项目<br>
 npm run dev
+<br>
+
+主要功能
+____
+* 登录/注册
+* 商品列表
+* 按照价格筛选商品
+* 购物车
+* 添加、删除地址
+* 订单确定
