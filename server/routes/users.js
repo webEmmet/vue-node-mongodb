@@ -99,6 +99,7 @@ router.post('/logout', (req, res, next)=>{
   });
 });
 
+// 检查是否登录
 router.get('/checkLogin', (req, res, next) => {
   if (req.cookies.userName) {
     res.json({
@@ -251,6 +252,7 @@ router.get('/getCartCount', (req, res, next)=>{
   }
 });
 
+// 获取地址列表
 router.get('/addressList', (req, res, next)=>{
   var userId = req.cookies.userId;
   User.findOne({userId: userId}, (err, doc)=>{
